@@ -10,6 +10,11 @@
         display: none;
     }
 
+    .secao__cartoes{
+        row-gap: .5rem;
+        column-gap: 1.25rem;
+    }
+
     .navbar {
         display: block;
     }
@@ -19,6 +24,10 @@
         padding-right: 1rem;
     }
 
+    .secao-horizontal .cartao{
+        column-gap:.5rem;
+    }
+
     .secao-horizontal .cartao__imagem {
         height: 56px;
         width: 56px;
@@ -26,6 +35,8 @@
 
     .secao-horizontal .cartao__titulo {
         font: 700 14px/20px Open Sans, sans-serif;
+        grid-row: 1/4;
+        align-self: center;
     }
 
     .secao-vertical .cartao {
@@ -39,6 +50,11 @@
 
     .secao-vertical .cartao__imagem {
         height: 156px;
+    }
+
+    .secao__cartoes{
+        column-gap: 1.25rem;
+        display: grid;
     }
 }
 
@@ -55,7 +71,10 @@
 
     .menu-lateral {
         width: 213px;
+    }
 
+    .secao__cartoes{
+        column-gap: 1.5rem;
     }
 
     .menu-lateral__link::before {
