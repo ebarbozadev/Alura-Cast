@@ -29,7 +29,7 @@
       <li>Implementar valores para as linhas e alturas;</li>
       <li>Modificar o alinhamento horizontal e vertical dos elementos;</li>
       <li>Calcular os espaços horizontal e vertical entre os elementos;</li>
-      <li>Responsividade com o display <code>grid</code>;</li>
+      <li>Responsividade com o display <code>grid</code>.</li>
     </ul>
 </section>
 
@@ -43,5 +43,5 @@
 
 <section id="certificado">
     <h2 style="font-size: 1.25rem;">Certificado</h2>
-    <p style="text-align: justify;">Veja o certificado que obtive no curso! Ou veja online <a href="https://cursos.alura.com.br/certificate/b1e3ded7-33ac-49bd-b606-74d57817564e">aqui</a>.</p>
+    <p style="text-align: justify;">Veja o certificado <a href="https://cursos.alura.com.br/certificate/b1e3ded7-33ac-49bd-b606-74d57817564e">aqui</a>.</p>
 </section>
